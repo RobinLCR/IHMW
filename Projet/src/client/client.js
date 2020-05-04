@@ -1,4 +1,3 @@
-
 // Create a client socket and connect to port 3636
 const socketio = require('socket.io-client');
 const socket = socketio.connect("http://localhost:3636");
